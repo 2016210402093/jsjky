@@ -9,7 +9,7 @@
                 <img src="../assets/school.png" alt="首页图片">
                 <input v-model="schoolName" type="text" placeholder="请输入学校名">
                 <button @click="searchInfo()">查询</button>
-                <p>由于数据原因,仅支持杭州师范大学查询</p>
+                <p>由于数据原因,仅本系统支持杭州师范大学查询</p>
             </div>
         </div>
     </div>
